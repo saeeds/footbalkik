@@ -1,0 +1,51 @@
+{
+  "name": "footbalkik",
+  "version": "1.0.0",
+  "description": "A chat application built with nod, mongo db, express and socket.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saeeds/footbalkik.git"
+  },
+  "author": "Said Alsharqawi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saeeds/footbalkik/issues"
+  },
+  "homepage": "https://github.com/saeeds/footbalkik#readme",
+  "dependencies": {
+    "async": "^3.1.1",
+    "aws-sdk": "^2.614.0",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.19.0",
+    "braces": "^3.0.2",
+    "compression": "^1.7.4",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^3.2.0",
+    "cookie-parser": "^1.4.4",
+    "dependable": "^1.1.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "express-promise-router": "^3.0.3",
+    "express-session": "^1.17.0",
+    "express-validator": "^6.4.0",
+    "forever": "^2.0.0",
+    "formidable": "^1.2.1",
+    "helmet": "^3.21.2",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.8.11",
+    "multer": "^1.4.2",
+    "multer-s3": "^2.9.0",
+    "passport": "^0.4.1",
+    "passport-facebook": "^3.0.0",
+    "passport-google-oauth": "^2.0.0",
+    "passport-local": "^1.0.0",
+    "socket.io": "^2.3.0"
+  }
+}
