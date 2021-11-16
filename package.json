@@ -20,7 +20,7 @@
   "homepage": "https://github.com/saeeds/footbalkik#readme",
   "dependencies": {
     "async": "^3.1.1",
-    "aws-sdk": "^2.614.0",
+    "aws-sdk": "^2.814.0",
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.19.0",
     "braces": "^3.0.2",
